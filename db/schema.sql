@@ -1,6 +1,8 @@
 DROP DATABASE IF EXISTS burgers_db;
 CREATE DATABASE burgers_db;
 
+USE burgers_db;
+
 -- create table and columns
 CREATE TABLE burgers (
 
@@ -10,4 +12,3 @@ CREATE TABLE burgers (
     date TIMESTAMP DEFAULT current_timestamp
     PRIMARY KEY (id)
 );
-
